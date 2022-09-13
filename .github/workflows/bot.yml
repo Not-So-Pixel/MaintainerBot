@@ -39,4 +39,4 @@ jobs:
           ref: thirteen
           
       - name: Bot
-        run: sudo -E python3 MaintainerBot/MaintainerBot &> /dev/null
+        run: sudo -E python3 MaintainerBot/MaintainerBot
