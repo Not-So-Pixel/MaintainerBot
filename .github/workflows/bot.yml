@@ -36,6 +36,7 @@ jobs:
           repository: PixelOS-Pixelish/official_devices
           token: ${{ secrets.GH_PAT }}
           path: official_devices
-      
+          ref: thirteen
+          
       - name: Bot
-        run: sudo -E python3 MaintainerBot/MaintainerBot
+        run: sudo -E python3 MaintainerBot/MaintainerBot &> /dev/null
